@@ -1,0 +1,29 @@
+World Populations SQL Practice II
+Analyze Data with SQL
+Joyce Wong
+October 2, 2020
+
+Table of Contents
+1. Countries in Africa
+2. Oceania’s population
+3. South America’s average population
+4. Least populated country
+5. Average population of Poland
+6. “The” Countries
+7. Population by Continent
+
+1. How many entries from the countries table are in Africa?
+SELECT COUNT (*)
+FROM countries
+WHERE continent = 'Africa';
+Answer: 56
+
+2. What was the total population of the continent of Oceania in 2005?
+SELECT SUM(population)
+FROM countries
+JOIN population_years
+ON countries.id = population_years.country_id
+WHERE continent = 'Oceania’
+AND year = 2005;
+Answer: 32,664,170
+
