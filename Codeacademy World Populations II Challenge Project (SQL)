@@ -78,9 +78,9 @@ GROUP BY 1
 ORDER BY 2 DESC;
 Answer: 
 Content   Population
-Asia      
-Afria
-Europe
+Asia      4,133,091,480
+Africa    1,015,478,460
+Europe      723,060,440
 North America
 South America
 Oceania
