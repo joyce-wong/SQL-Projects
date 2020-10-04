@@ -77,10 +77,10 @@ WHERE year = 2010
 GROUP BY 1
 ORDER BY 2 DESC;
 Answer: 
-Content   Population
-Asia      4,133,091,480
-Africa    1,015,478,460
-Europe      723,060,440
-North America
-South America
-Oceania
+Content       Population
+Asia           4,133,091,480
+Africa         1,015,478,460
+Europe           723,060,440
+North America    539,794,560
+South America    396,582,350
+Oceania           34,956,960
